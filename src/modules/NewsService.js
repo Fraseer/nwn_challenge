@@ -3,7 +3,7 @@ import store from "../state/store/configureStore";
 function getNewsFeed(data) {
   return { type: "SET_NEWS_FEED", payload: data }
 }
-const apiUrl = process.env.REACT_APP_API_URL
+const apiUrl = "https://newsapi.org/v2"
 const apiKey = process.env.REACT_APP_API_KEY
 const NewsService = {
   async index(countryCode) {

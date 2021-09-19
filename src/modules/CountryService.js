@@ -3,7 +3,7 @@ import axios from 'axios'
 const CountryService = async (coords) => {
   const { latitude, longitude } = coords;
 
-  const apiUrl = process.env.REACT_APP_LOCATION_API_URL
+  const apiUrl = "https://api.opencagedata.com/geocode/v1/json"
   const apiKey = process.env.REACT_APP_LOCATION_API_KEY
 
   const requestUrl = apiUrl
