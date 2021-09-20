@@ -20,8 +20,11 @@ describe("Visitor Can See A Collection Of News Outside Of Sweden", () => {
           "have.contain",
           "Democrats take control of Senate!"
         );
-        cy.get(".image").find("img").should("be.visible")
-        cy.get(".description").should("contain", "Nu berättar Skäringer Lázár att hon och maken har gått runt och varit irriterade under en tid.")
+        cy.get(".image").find("img").should("be.visible");
+        cy.get(".description").should(
+          "contain",
+          "Nu berättar Skäringer Lázár att hon och maken har gått runt och varit irriterade under en tid."
+        );
       });
   });
 });

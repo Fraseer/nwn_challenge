@@ -1,3 +1,21 @@
+# The code
+### This challenge gives you legacy code as an unfinished project. The goal is to make it functionable and have it look presentable. 
+### Author Dorian and Fraser
+[Deployed at]
+(https://loving-bose-2ed210.netlify.app/)
+
+### Dependencies  
+* Yarn
+* React 
+* Cypress
+* Redux
+* Thunk
+* Axios
+* Semantic-ui-react/css
+
+
+
+
 ## NWN - News Wire Network Challenge
 
 ![](./src/nwn.png)
